@@ -1,3 +1,12 @@
+# ignore env file in my_ml_backend
+/my_ml_backend/.env
+
+# Ignore Label Studio ML backend cache files
+cache.db
+/my_ml_backend/data/ 
+# created when ML backend is run on local machine (label-studio start)
+#/my_ml_backend/data/ # created when ML backend is run inside Docker
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
